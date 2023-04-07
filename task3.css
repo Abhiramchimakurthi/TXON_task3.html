@@ -1,0 +1,45 @@
+body{
+    background-color:linear-gradiant(grey, black);
+}
+.box {
+    background: linear-gradient(rgba(52, 21, 21, 0.11),rgba(32, 27, 27, 0.9));
+    box-shadow: -8px -8px 15px rgba(26, 51, 195, 0.2),5px 5px 15px rgba(255,255,255,0.2);
+    max-width: 900px;
+    max-height: 1000px;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid rgb(19, 17, 17);
+}
+h1 {
+    font-size: 50px;
+    
+    
+}
+button {
+    background-color: rgb(182, 132, 81);
+    color: rgb(9, 3, 3);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(182, 132, 81);
+    border: 2px #181515;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px  solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+li.done {
+    background-color: rgba(204, 230, 255, 0.223);
+    text-decoration: line-through;
+}
